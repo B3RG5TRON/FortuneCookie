@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --colorbase-popBlue: #E4EDF1;
+    --colorbase-white: #FFF;
+    --colorbase-textBlack: #000;
+    --colorbase-textPurple: #34355B;
+    --colorbase-orange-500: #FF9500;
+    --colorbase-background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+}
+
+body {
+    font-size: 1.6rem;
+    color: var(--colorbase-textPurple);
+
+    display: grid;
+    place-items: center;
+    height: 100%;
+    min-height: 100vh;
+
+    background: var(--colorbase-background)no-repeat;
+    background-size: 200% 200%;
+    animation: background-animation 8s both alternate infinite;
+}
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+}
